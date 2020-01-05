@@ -1,4 +1,6 @@
 body {
+    height: 100vh;
+    width: 100vw;
     padding: 0px;
     margin: 0px;
 }
@@ -6,8 +8,8 @@ body {
 .flex-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 647px;
+    width: 100vw;
+    height: 100vh;
     background-image: url("../images/vzgQ3U_1200x650.jpg");
 }
 
