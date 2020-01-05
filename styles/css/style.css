@@ -8,7 +8,7 @@ body {
     flex-direction: row;
     width: 100%;
     height: 650px;
-    background-image: url("../images/vzgQ3U_1200x650.jpg");
+    background-image: url("/styles/images/vzgQ3U_1200x650.jpg");
 }
 
 /* ---header styling and links---- */
