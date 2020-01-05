@@ -13,14 +13,21 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
-    color: rgb(148,148,148);
+    color: rgb(140, 140, 140);
+    font-family: Georgia, Times, 'Times New Roman', serif;
     height: 100px;
     width: 90%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+}
+
+.head-text, .about-me, .projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    font-size: 4vw;
 }
