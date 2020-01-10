@@ -21,8 +21,8 @@ body {
     font-family: Georgia, Times, 'Times New Roman', serif;
     height: 100px;
     width: 90%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -67,35 +67,32 @@ body {
 
 .carousel-size {
     display: flex;
-    width: 80%;
-    height: 60%;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.img-size {
+    width: 90vw;
+    height: 75vh;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.carousel-inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.carousel-item {
-    height: 100%;
-    width: 80%;
-    margin: auto;
-}
-
-.img-size {
-    width: 100%;
-    margin: auto;
-}
-
 .project-title {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .project-text {
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 /* ---end of carousel css----- */
