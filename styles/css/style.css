@@ -99,4 +99,14 @@ body {
 .project-text {
     font-size: 2vw;
 }
+
+@media screen and (max-width: 500px) {
+    .img-size {
+        width: 80%;
+        height: 45vh;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 /* ---end of carousel css----- */
