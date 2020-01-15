@@ -30,7 +30,7 @@ body {
 
 .about-me, 
 .port-text, 
-.projects {
+.contact {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ body {
     background-color: rgb(19, 19, 68);
 }
 
-.projects:hover {
+.contact:hover {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
@@ -62,6 +62,21 @@ body {
     background-color: rgb(19, 19, 68);
 } 
 /* ---end of header styling---- */
+
+
+/*----about me page styling----*/
+
+.about-me-box {
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+/*----end of about me page styling----*/
+
+/* portfolio page styling */
 
 /* ---carousel css----- */
 
@@ -119,3 +134,17 @@ body {
 }
 
 /* ---end of carousel css----- */
+
+/* end of portfolio styling */
+
+/*----contact me page styling----*/
+
+.contact-me-box {
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+/*----end of contact me page styling----*/
