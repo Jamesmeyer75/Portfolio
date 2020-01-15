@@ -8,10 +8,10 @@ $(document).ready(function () {
 
 $(".port-text").on("click", function () {
     $(".about-me-box").hide();
-    window.location.href = "./view/portfolio.html";
+    window.location.href = "../view/portfolio.html";
 });
 
 $(".contact").on("click", function () {
     $(".about-me-box").hide();
-    window.location.href = "./view/contact.html";
+    window.location.href = "../view/contact.html";
 });
