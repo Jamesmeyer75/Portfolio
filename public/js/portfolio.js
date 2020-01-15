@@ -11,5 +11,5 @@ $(".about-me").on("click", function () {
 
 $(".contact").on("click", function () {
     $("#show-carousel").hide();
-    window.location.href = "./contact.html";
+    window.location.href = "/contact.html";
 });
