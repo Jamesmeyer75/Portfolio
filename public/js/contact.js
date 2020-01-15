@@ -6,7 +6,7 @@ $(document).ready(function () {
 // link to other pages
 $(".about-me").on("click", function () {
     $("contact-me-box").hide();
-    window.location.href = "../../../index.html";
+    window.location.href = "../index.html";
 });
 
 $(".port-text").on("click", function () {
