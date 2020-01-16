@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 33.33%;
+    width: 33.3333333%;
     height: 100%;
     font-size: 4vw;
     margin-top: auto;
@@ -67,12 +67,120 @@ body {
 /*----about me page styling----*/
 
 .about-me-box {
+    display: flex;
+    flex-direction: row;
     width: 90%;
     height: 70%;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
     border-radius: 10px;
+}
+
+.profile-img {
+    height: 320px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
+}
+
+.about-me-text-box {
+    height: 320px;
+    width: 50%;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.p-text {
+    font-size: 16px;
+    margin-top: -5px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 800px) {
+    .about-me-box {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 70%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .profile-img {
+        height: 90%;
+        width: 300px;
+        margin: 20px;
+        border-radius: 10px;
+        background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
+    }
+    .about-me-text-box {
+        display: flex;
+        height: 70%;
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-me-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 70%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .profile-img {
+        height: 338px;
+        width: 300px;
+        margin: 20px;
+        border-radius: 10px;
+        background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
+    }
+    .about-me-text-box {
+        height: 320px;
+        width: 90%;
+        margin: 0px 20px 20px 20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about-me-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 70%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .profile-img {
+        height: 50%;
+        width: 90%;
+        margin: 0px 20px 20px 20px;
+        border-radius: 10px;
+        background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
+    }
+    .about-me-text-box {
+        height: 50%;
+        width: 90%;
+        margin: 0px 20px 20px 20px;
+        border-radius: 10px;
+    }
+    .p-text {
+        font-size: 16px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+    }
 }
 /*----end of about me page styling----*/
 
