@@ -101,27 +101,16 @@ body {
 /* media queries for about me page */
 @media screen and (max-width: 800px) {
     .about-me-box {
-        display: flex;
-        flex-direction: row;
         width: 90%;
         height: 70%;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
     }
+
     .profile-img {
         height: 300px;
-        width: 300px;
-        margin: 20px;
-        border-radius: 10px;
-        background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
     }
     .about-me-text-box {
-        display: flex;
         height: 70%;
         width: 90%;
-        border-radius: 10px;
     }
 }
 
@@ -130,56 +119,34 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 90%;
-        height: 70%;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
     }
     .profile-img {
         height: 338px;
-        width: 300px;
-        margin: 20px;
-        border-radius: 10px;
-        background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
     }
     .about-me-text-box {
-        height: 320px;
         width: 90%;
         margin: 0px 20px 20px 20px;
-        border-radius: 10px;
     }
 }
 
 @media screen and (max-width: 420px) {
     .about-me-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         width: 90%;
         height: 70%;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
     }
     .profile-img {
         height: 50%;
         width: 80%;
         margin: 0px 20px 20px 20px;
-        border-radius: 10px;
-        background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
     }
+
     .about-me-text-box {
         height: 50%;
         width: 80%;
         margin: 0px 20px 20px 20px;
-        border-radius: 10px;
     }
     .p-text {
         font-size: 16px;
-        font-family: Georgia, Times, 'Times New Roman', serif;
     }
 }
 /*----end of about me page styling----*/
@@ -265,7 +232,7 @@ body {
 .project-text-2 {
     font-size: 2vw;
 }
-/* media query for portfolio page */
+/* media queries for portfolio page */
 @media screen and (max-width: 500px) {
     .carousel-size {
         margin-top: 50px;
@@ -273,9 +240,6 @@ body {
     .img-size {
         width: 80%;
         height: 45vh;
-        border-radius: 10px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .text-background {
@@ -300,12 +264,6 @@ body {
 
 @media screen and (max-width: 400px) {
     .text-background {
-        padding: 5px 5px 0px 5px;
-        background-color: red;
-        border-radius: 10px;
-        width: 66%;
-        margin-left: auto;
-        margin-right: auto;
         height: 33%;
     }
 
@@ -316,7 +274,7 @@ body {
     }
 }
 /* ---end of carousel css----- */
-
+/* end of media queries */
 /* end of portfolio styling */
 
 /*----contact me page styling----*/
@@ -401,67 +359,31 @@ body {
 /* media queries for contact page */
 @media screen and (max-width: 725px) {
     .contact-me-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        width: 90%;
         height: 75%;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
     }
     
     .backdrop {
-        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 95%;
-        height: 95%;
         padding: 15px;
-        background-color: gray;
-        border-radius: 10px;
     }
     
     .contacts {
-        background-color: white;
         padding: 5px;
         width: 100%;
         height: 48%;
-        border-radius: 10px;
     }
     
     .contact-me-text, .contact-text {
         font-size: 3vw;
-        font-weight: bolder;
-        color: rgb(121, 120, 120);
         padding: 0px 5px 0px 5px;
     
     }
     
-    .email-color, .number-color {
-        color: rgb(121, 120, 120);
-    
-    }
-    
-    .email-color:hover, .number-color:hover {
-        color: rgb(0,123,182);
-    
-    }
-    
     .github-linkdin {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: white;
-        padding: 5px;
-        margin: auto;
         width: 100%;
         height: 48%;
-        border-radius: 10px;
     }
     
     .github-logo {
@@ -479,67 +401,25 @@ body {
 
 @media screen and (max-width: 450px) {
     .contact-me-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        width: 90%;
         height: 75%;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
     }
     
     .backdrop {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         width: 95%;
         height: 95%;
         padding: 15px;
-        background-color: gray;
-        border-radius: 10px;
-    }
-    
-    .contacts {
-        background-color: white;
-        padding: 5px;
-        width: 100%;
-        height: 48%;
-        border-radius: 10px;
     }
     
     .contact-me-text, .contact-text {
         font-size: 3.5vw;
-        font-weight: bolder;
-        color: rgb(121, 120, 120);
         padding: 15px 5px 0px 5px;
     
     }
     
-    .email-color, .number-color {
-        color: rgb(121, 120, 120);
-    
-    }
-    
-    .email-color:hover, .number-color:hover {
-        color: rgb(0,123,182);
-    
-    }
-    
     .github-linkdin {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: white;
         padding: 5px;
-        margin: auto;
         width: 100%;
         height: 48%;
-        border-radius: 10px;
     }
     
     .github-logo {
