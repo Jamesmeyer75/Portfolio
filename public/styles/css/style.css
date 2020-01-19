@@ -98,7 +98,7 @@ body {
     margin-top: -5px;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
-
+/* media queries for about me page */
 @media screen and (max-width: 800px) {
     .about-me-box {
         display: flex;
@@ -111,7 +111,7 @@ body {
         border-radius: 10px;
     }
     .profile-img {
-        height: 90%;
+        height: 300px;
         width: 300px;
         margin: 20px;
         border-radius: 10px;
@@ -166,14 +166,14 @@ body {
     }
     .profile-img {
         height: 50%;
-        width: 90%;
+        width: 80%;
         margin: 0px 20px 20px 20px;
         border-radius: 10px;
         background-image: url("../images/IMG_20161204_164641_1_300x338.jpg");
     }
     .about-me-text-box {
         height: 50%;
-        width: 90%;
+        width: 80%;
         margin: 0px 20px 20px 20px;
         border-radius: 10px;
     }
@@ -184,8 +184,33 @@ body {
 }
 /*----end of about me page styling----*/
 
+/* end of media queries for about me page*/
+
 /* portfolio page styling */
 
+.link-1 {
+    color: rgb(241, 148, 218);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.link-1:hover {
+    color: rgb(253, 252, 253);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.link-2 {
+    color: rgb(136, 136, 138);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.link-2:hover {
+    color: rgb(253, 252, 253);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
 /* ---carousel css----- */
 
 .carousel-size {
@@ -223,6 +248,24 @@ body {
     font-size: 2vw;
 }
 
+.text-background {
+    padding: 5px 5px 0px 5px;
+    background-color: red;
+    border-radius: 10px;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+}
+
+.project-title-2 {
+    font-size: 3vw;
+}
+
+.project-text-2 {
+    font-size: 2vw;
+}
+/* media query for portfolio page */
 @media screen and (max-width: 500px) {
     .img-size {
         width: 80%;
@@ -232,6 +275,9 @@ body {
         margin-right: auto;
     }
 
+    .text-background {
+        height: 45%;
+    }
     .project-text {
         font-size: 3vw;
     }
@@ -239,8 +285,33 @@ body {
     .project-title {
         font-size: 5vw;
     }
+
+    .project-text-2{
+        font-size: 3vw;
+    }
+
+    .project-title-2 {
+        font-size: 5vw;
+    }
 }
 
+@media screen and (max-width: 400px) {
+    .text-background {
+        padding: 5px 5px 0px 5px;
+        background-color: red;
+        border-radius: 10px;
+        width: 66%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 33%;
+    }
+
+    .project-text-2{
+        margin-top: -5px;
+        font-size: 3vw;
+
+    }
+}
 /* ---end of carousel css----- */
 
 /* end of portfolio styling */

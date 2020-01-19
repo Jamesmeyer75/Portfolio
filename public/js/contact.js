@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    $(".header").hide().fadeIn(500);
     $(".contact-me-box").hide().fadeIn(1000);
 });
 
