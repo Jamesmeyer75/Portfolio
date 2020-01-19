@@ -218,6 +218,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
+    margin-top: 50px;
 }
 
 .carousel-inner {
@@ -319,6 +320,10 @@ body {
 /*----contact me page styling----*/
 
 .contact-me-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     width: 90%;
     height: 70%;
     background-color: white;
@@ -326,4 +331,226 @@ body {
     margin-right: auto;
     border-radius: 10px;
 }
+
+.backdrop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.contacts {
+    background-color: white;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    width: 45%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.contact-me-text, .contact-text {
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(121, 120, 120);
+    padding: 20px 5px 20px 5px;
+
+}
+
+.email-color, .number-color {
+    color: rgb(121, 120, 120);
+
+}
+
+.email-color:hover, .number-color:hover {
+    color: rgb(0,123,182);
+
+}
+
+.github-linkdin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+    width: 45%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.github-logo {
+    width: 236px;
+    height: 59.09%;
+    background-image: url("../images/download.png");
+}
+
+.linkedin-logo {
+    width: 207px;
+    height: 40.3%;
+    background-image: url("../images/download-1.png");
+}
+/* media queries for contact page */
+@media screen and (max-width: 725px) {
+    .contact-me-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 90%;
+        height: 75%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    
+    .backdrop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 95%;
+        padding: 15px;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    
+    .contacts {
+        background-color: white;
+        padding: 5px;
+        width: 100%;
+        height: 48%;
+        border-radius: 10px;
+    }
+    
+    .contact-me-text, .contact-text {
+        font-size: 3vw;
+        font-weight: bolder;
+        color: rgb(121, 120, 120);
+        padding: 0px 5px 0px 5px;
+    
+    }
+    
+    .email-color, .number-color {
+        color: rgb(121, 120, 120);
+    
+    }
+    
+    .email-color:hover, .number-color:hover {
+        color: rgb(0,123,182);
+    
+    }
+    
+    .github-linkdin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding: 5px;
+        margin: auto;
+        width: 100%;
+        height: 48%;
+        border-radius: 10px;
+    }
+    
+    .github-logo {
+        width: 75.011111px;
+        height: 75.1px;
+        background-image: url("../images/download_1_75x75.png");
+    }
+    
+    .linkedin-logo {
+        width: 100px;
+        height: 60px;
+        background-image: url("../images/download-1_1_100x100.png");
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contact-me-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 90%;
+        height: 75%;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    
+    .backdrop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 95%;
+        padding: 15px;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    
+    .contacts {
+        background-color: white;
+        padding: 5px;
+        width: 100%;
+        height: 48%;
+        border-radius: 10px;
+    }
+    
+    .contact-me-text, .contact-text {
+        font-size: 3.5vw;
+        font-weight: bolder;
+        color: rgb(121, 120, 120);
+        padding: 15px 5px 0px 5px;
+    
+    }
+    
+    .email-color, .number-color {
+        color: rgb(121, 120, 120);
+    
+    }
+    
+    .email-color:hover, .number-color:hover {
+        color: rgb(0,123,182);
+    
+    }
+    
+    .github-linkdin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding: 5px;
+        margin: auto;
+        width: 100%;
+        height: 48%;
+        border-radius: 10px;
+    }
+    
+    .github-logo {
+        width: 75.011111px;
+        height: 75.1px;
+        background-image: url("../images/download_1_75x75.png");
+    }
+    
+    .linkedin-logo {
+        width: 100px;
+        height: 60px;
+        background-image: url("../images/download-1_1_100x100.png");
+    }
+}
+/* end of media queries */
 /*----end of contact me page styling----*/
