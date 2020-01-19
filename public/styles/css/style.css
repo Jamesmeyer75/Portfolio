@@ -218,7 +218,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    margin-top: 50px;
 }
 
 .carousel-inner {
@@ -268,6 +267,9 @@ body {
 }
 /* media query for portfolio page */
 @media screen and (max-width: 500px) {
+    .carousel-size {
+        margin-top: 50px;
+    }
     .img-size {
         width: 80%;
         height: 45vh;
