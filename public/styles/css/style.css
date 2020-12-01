@@ -168,24 +168,30 @@ body {
 }
 
 .link-2 {
-    color: rgb(136, 136, 138);
+    color: rgb(252, 1, 1);
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
 }
 
 .link-2:hover {
-    color: rgb(253, 252, 253);
+    color: rgb(255, 255, 255);
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
 }
 
 .color2 {
-    color: rgb(1, 3, 0);
+    color: rgb(255, 255, 255);
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.color2:hover {
-    color: rgb(78, 78, 78);
+.link-3 {
+    color: rgb(44, 231, 60);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.link-3:hover {
+    color: rgb(255, 255, 255);
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
 }
@@ -241,6 +247,10 @@ body {
 
 .project-text-2 {
     font-size: 2vw;
+}
+
+.fade-image {
+    filter: brightness(50%);
 }
 
 /* media queries for portfolio page */
